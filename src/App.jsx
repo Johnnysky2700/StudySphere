@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Hero/Hero.jsx'
 import Programs from './Components/Programs/programs.jsx'
 import Title from './Components/title/title.jsx'
+import About from './Components/About/About.jsx'
+import Campus from './Components/Campus/Campus.jsx'
 
 const App = () => {
   return (
@@ -12,6 +14,10 @@ const App = () => {
       <div className="container">
         <Title subTitle="Our PROGRAM" title="What We Offer" />
         <Programs />
+        <About />
+         <Title subTitle="Gallery" title="Campus Photos" />
+        <Campus />
+       
       </div>
     </div>
   )
