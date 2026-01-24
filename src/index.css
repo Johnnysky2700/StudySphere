@@ -47,7 +47,7 @@ a{
   color: #fff;
 }
 
-/* ------- media querys ---------
+/* ------- media querys --------- */
 @media (max-width: 1200px) {  
   .container{
     padding-left: 5%;
@@ -58,4 +58,4 @@ a{
     padding: 14px 22px;
     font-size: 14px;
   }
-} */
+}
